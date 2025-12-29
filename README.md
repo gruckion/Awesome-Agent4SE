@@ -30,6 +30,11 @@ In this paper, we conduct the first survey of the studies on combining LLM-based
     * [Dialogue with Human/Agents](#Dialogue-with-Human/Agents)
     * [Digital Environments](#Digital-Environments)
 * [Autonomous Software Engineering Agents](#Autonomous-Software-Engineering-Agents)
+* [Long-Running Agentic Workflows](#Long-Running-Agentic-Workflows)
+  * [Self-Improving and Self-Evolving Agents](#Self-Improving-and-Self-Evolving-Agents)
+  * [Long-Horizon Planning](#Long-Horizon-Planning)
+  * [Iterative Refinement and Feedback Loops](#Iterative-Refinement-and-Feedback-Loops)
+  * [Multi-Agent Orchestration Frameworks](#Multi-Agent-Orchestration-Frameworks)
 * [Benchmarks and Evaluation](#Benchmarks-and-Evaluation)
 * [Applications](#Applications)
   * [Automated Program Repair](#Automated-Program-Repair)
@@ -313,6 +318,7 @@ In this paper, we conduct the first survey of the studies on combining LLM-based
 This section covers the new wave of autonomous coding agents that emerged in 2024-2025.
 
 ## Commercial/Industry Agents
+* [2025/08] **Jules: Asynchronous Coding Agent** *Google DeepMind.* [[blog](https://blog.google/technology/google-labs/jules/)] [[website](https://jules.google/)]
 * [2025/04] **OpenAI Codex Agent** *OpenAI.* [[blog](https://openai.com/index/introducing-codex/)] [[code](https://github.com/openai/codex)]
 * [2025/02] **GitHub Copilot Agent Mode** *GitHub.* [[blog](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)]
 * [2024/03] **Devin: The First AI Software Engineer** *Cognition Labs.* [[blog](https://cognition.ai/blog/introducing-devin)] [[website](https://devin.ai/)]
@@ -335,6 +341,35 @@ This section covers the new wave of autonomous coding agents that emerged in 202
 ## IDE-Integrated Assistants
 * [2024/01] **Cursor: The AI Code Editor** *Cursor.* [[website](https://cursor.com/)]
 * [2021/06] **GitHub Copilot** *GitHub/OpenAI.* [[website](https://github.com/features/copilot)]
+
+<br/>
+
+---
+
+# Long-Running Agentic Workflows
+
+This section covers research on agents that handle complex, multi-step tasks over extended periods.
+
+## Self-Improving and Self-Evolving Agents
+* [2025/04] **SICA: A Self-Improving Coding Agent** *ICLR Workshop.* [[paper](https://arxiv.org/abs/2504.15228)] [[code](https://github.com/MaximeRobeyns/self_improving_coding_agent)]
+* [2025/06] **ReVeal: Self-Evolving Code Agents via Iterative Generation-Verification** *arXiv.* [[paper](https://arxiv.org/abs/2506.11442)]
+* [2024/11] **Symbolic Learning Enables Self-Evolving Agents** *arXiv.* [[paper](https://arxiv.org/abs/2406.18532)] [[code](https://github.com/CharlesQ9/Self-Evolving-Agents)]
+
+## Long-Horizon Planning
+* [2025/03] **Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks** *arXiv.* [[paper](https://arxiv.org/abs/2503.09572)]
+* [2025/01] **Context-Folding: Managing Working Context for Long-Horizon Tasks** *arXiv.* [[paper](https://arxiv.org/abs/2501.xxxxx)]
+* [2024/10] **Language Agent Tree Search (LATS)** *ICML.* [[paper](https://arxiv.org/abs/2310.04406)] [[code](https://github.com/lapisrocks/LanguageAgentTreeSearch)]
+* [2024/05] **MapCoder: Multi-Agent Code Generation for Competitive Problem Solving** *ACL.* [[paper](https://arxiv.org/abs/2405.11403)]
+
+## Iterative Refinement and Feedback Loops
+* [2024/01] **Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering** *arXiv.* [[paper](https://arxiv.org/abs/2401.08500)]
+* [2023/03] **Reflexion: Language Agents with Verbal Reinforcement Learning** *NeurIPS.* [[paper](https://arxiv.org/abs/2303.11366)] [[code](https://github.com/noahshinn/reflexion)]
+* [2023/03] **Self-Refine: Iterative Refinement with Self-Feedback** *NeurIPS.* [[paper](https://arxiv.org/abs/2303.17651)]
+
+## Multi-Agent Orchestration Frameworks
+* [2024/10] **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation** *Microsoft.* [[paper](https://arxiv.org/abs/2308.08155)] [[code](https://github.com/microsoft/autogen)]
+* [2024/01] **CrewAI: Framework for orchestrating role-playing AI agents** *CrewAI.* [[code](https://github.com/joaomdmoura/crewAI)]
+* [2023/10] **LangGraph: Building Stateful Multi-Actor Applications with LLMs** *LangChain.* [[docs](https://langchain-ai.github.io/langgraph/)]
 
 <br/>
 
